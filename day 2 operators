@@ -1,0 +1,12 @@
+# Complete the solve function below.
+meal_cost = float(input())
+
+tip_percent = int(input())
+
+tax_percent = int(input())
+
+tip = meal_cost * tip_percent / 100.0
+tax = meal_cost * tax_percent / 100.0
+total_cast = meal_cost + tip + tax
+roundcast = round(total_cast)
+print(roundcast)
